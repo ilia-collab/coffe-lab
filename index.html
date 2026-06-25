@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coffee Lab — Specialty Coffee Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<!-- ░░░ SIDEBAR ░░░ -->
+<aside class="sidebar" id="sidebar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 40 40" width="34" height="34">
+        <g stroke="currentColor" stroke-width="2.1" stroke-linecap="round">
+          <path d="M11 8 L11 32 M11 8 Q26 8 28 13 M11 13 Q24 13 27 17 M11 18 Q26 18 28 20 M11 23 Q25 23 27 26 M11 28 Q24 28 27 31"/>
+        </g>
+      </svg>
+    </div>
+    <div class="brand-text">
+      <span class="brand-name">COFFEE LAB</span>
+      <span class="brand-sub">Specialty Academy</span>
+    </div>
+  </div>
+
+  <div class="side-progress">
+    <div class="side-progress-top">
+      <span>კურსის პროგრესი</span>
+      <span id="sideProgressPct" class="mono">0%</span>
+    </div>
+    <div class="bar"><div class="bar-fill" id="sideProgressBar"></div></div>
+  </div>
+
+  <nav class="nav" id="nav"><!-- built by JS --></nav>
+
+  <button class="reset-btn" id="resetBtn" title="პროგრესის განულება">↺ პროგრესის განულება</button>
+</aside>
+
+<div class="scrim" id="scrim"></div>
+
+<!-- ░░░ MAIN ░░░ -->
+<main class="main" id="main">
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="მენიუ">☰</button>
+    <div class="search-wrap">
+      <span class="search-ico">⌕</span>
+      <input id="globalSearch" type="text" placeholder="ძებნა ყველა თემაში… (მაგ: ექსტრაქცია, V60, კოფეინი)" autocomplete="off" />
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <button class="study-toggle" id="studyToggle" title="სასწავლო რეჟიმი — მხოლოდ მთავარი პუნქტები">📌 Study Mode</button>
+  </header>
+
+  <div class="view" id="view"><!-- rendered per section --></div>
+
+  <footer class="foot">
+    <span>Coffee Lab · სერვისისა და ბარის თანამშრომლების ტრენინგი</span>
+    <span class="mono">offline · localStorage · no backend</span>
+  </footer>
+</main>
+
+<script src="./app.js"></script>
+</body>
+</html>
