@@ -25,10 +25,10 @@ const CAT_LABEL = {
 const SECTIONS = [
 
 /* ---- DASHBOARD (custom render) ---- */
-{ id:'dashboard', title:'მთავარი', ico:'⌂', cat:'tool', group:'მთავარი', custom:'dashboard', time:0 },
+{ id:'dashboard', title:'მთავარი', ico:'⌂', cat:'tool', group:'მთავარი', custom:'dashboard' },
 
 /* ---- HISTORY ---- */
-{ id:'history', title:'ყავის ისტორია', ico:'📜', cat:'history', group:'ცოდნა', time:6,
+{ id:'history', title:'ყავის ისტორია', ico:'📜', cat:'history', group:'ცოდნა',
   lead:'საიდან მოვიდა ყავა და როგორ გახდა მსოფლიოს ერთ-ერთი ყველაზე პოპულარული სასმელი.',
   blocks:[
     {type:'timeline', items:[
@@ -52,7 +52,7 @@ const SECTIONS = [
   ]},
 
 /* ---- INDUSTRY ---- */
-{ id:'industry', title:'ინდუსტრიის განვითარება', ico:'🏭', cat:'industry', group:'ცოდნა', time:9,
+{ id:'industry', title:'ინდუსტრიის განვითარება', ico:'🏭', cat:'industry', group:'ცოდნა',
   lead:'ყავის ინდუსტრიის სამი თაობა — ხსნადი ყავიდან Specialty-მდე, პლუს იტალიისა და ამერიკის გავლენა.',
   blocks:[
     {type:'cards', items:[
@@ -80,7 +80,7 @@ const SECTIONS = [
   ]},
 
 /* ---- SPECIALTY ---- */
-{ id:'specialty', title:'Specialty Coffee', ico:'🏅', cat:'specialty', group:'ცოდნა', time:7,
+{ id:'specialty', title:'Specialty Coffee', ico:'🏅', cat:'specialty', group:'ცოდნა',
   lead:'რა არის Specialty ყავა, ვინ აფასებს მას და როგორ მუშაობს 100-ქულიანი სისტემა.',
   blocks:[
     {type:'prose', items:[
@@ -111,7 +111,7 @@ const SECTIONS = [
   ]},
 
 /* ---- VARIETIES ---- */
-{ id:'varieties', title:'არაბიკა vs რობუსტა', ico:'🌱', cat:'varieties', group:'ცოდნა', time:8,
+{ id:'varieties', title:'არაბიკა vs რობუსტა', ico:'🌱', cat:'varieties', group:'ცოდნა',
   lead:'ორი მთავარი ჯიში, მათი განსხვავებები და არაბიკის ქვეტიპები.',
   blocks:[
     {type:'table', head:['მახასიათებელი','არაბიკა','რობუსტა'], rows:[
@@ -137,7 +137,7 @@ const SECTIONS = [
   ]},
 
 /* ---- PLANT ---- */
-{ id:'plant', title:'ყავის მცენარე და მარცვალი', ico:'🍒', cat:'plant', group:'ცოდნა', time:6,
+{ id:'plant', title:'ყავის მცენარე და მარცვალი', ico:'🍒', cat:'plant', group:'ცოდნა',
   lead:'სად და როგორ იზრდება ყავა, და რა შრეებისგან შედგება მისი ნაყოფი.',
   blocks:[
     {type:'numbers', items:[
@@ -163,7 +163,7 @@ const SECTIONS = [
   ]},
 
 /* ---- HARVEST ---- */
-{ id:'harvest', title:'ყავის დაკრეფა', ico:'🧺', cat:'harvest', group:'ცოდნა', time:6,
+{ id:'harvest', title:'ყავის დაკრეფა', ico:'🧺', cat:'harvest', group:'ცოდნა',
   lead:'სამი მთავარი მეთოდი: მექანიკური, ხელით დაფერთხვა და ხელით გადარჩევა.',
   blocks:[
     {type:'cards', items:[
@@ -175,7 +175,7 @@ const SECTIONS = [
   ]},
 
 /* ---- PROCESSING ---- */
-{ id:'processing', title:'ყავის დამუშავება', ico:'⚗️', cat:'processing', group:'ცოდნა', time:14,
+{ id:'processing', title:'ყავის დამუშავება', ico:'⚗️', cat:'processing', group:'ცოდნა',
   lead:'From seed to bean — დაკრეფიდან მწვანე მარცვლამდე. ყველა მეთოდი და მათი გავლენა გემოზე.',
   blocks:[
     {type:'accordion', items:[
@@ -228,7 +228,7 @@ const SECTIONS = [
   ]},
 
 /* ---- DECAFFEINATION ---- */
-{ id:'decaf', title:'უკოფეინო ყავა (Decaf)', ico:'🚫', cat:'processing', group:'ცოდნა', time:8,
+{ id:'decaf', title:'უკოფეინო ყავა (Decaf)', ico:'🚫', cat:'processing', group:'ცოდნა',
   lead:'უკოფეინო ყავა არ არის სპეციალური მცენარე — ეს კოფეინის მოშორების პროცესია მწვანე მარცვლიდან.',
   blocks:[
     {type:'note', text:'<b>FDA:</b> ყავა უკოფეინოდ ითვლება, როცა კოფეინის 97% ამოღებულია. ზოგ მეთოდს მეტის ამოღებაც შეუძლია.'},
@@ -252,7 +252,7 @@ const SECTIONS = [
   ]},
 
 /* ---- ROASTING ---- */
-{ id:'roasting', title:'ყავის მოხალვა', ico:'🔥', cat:'roasting', group:'ცოდნა', time:9,
+{ id:'roasting', title:'ყავის მოხალვა', ico:'🔥', cat:'roasting', group:'ცოდნა',
   lead:'From bean to cup — როგორ გარდაიქმნება უგემო მწვანე მარცვალი არომატულ ყავად.',
   blocks:[
     {type:'facts', items:[
@@ -283,7 +283,7 @@ const SECTIONS = [
   ]},
 
 /* ---- STORAGE + TRADING ---- */
-{ id:'storage', title:'შენახვა და ვაჭრობა', ico:'📦', cat:'storage', group:'ცოდნა', time:6,
+{ id:'storage', title:'შენახვა და ვაჭრობა', ico:'📦', cat:'storage', group:'ცოდნა',
   lead:'მწვანე და მოხალული მარცვლის დაფასოება, შენახვა და ყავით ვაჭრობა.',
   blocks:[
     {type:'h', text:'მწვანე მარცვლის დაფასოება და შენახვა'},
@@ -307,7 +307,7 @@ const SECTIONS = [
   ]},
 
 /* ---- CUPPING ---- */
-{ id:'cupping', title:'ქაფინგი (Cupping)', ico:'🥄', cat:'cupping', group:'ვარჯიში', time:9,
+{ id:'cupping', title:'ქაფინგი (Cupping)', ico:'🥄', cat:'cupping', group:'ვარჯიში',
   lead:'პროფესიონალური დაგემოვნების მეთოდი — გამორიცხავს არასწორი მომზადებით გამოწვეულ ცვლილებას.',
   blocks:[
     {type:'prose', items:['ქაფინგის მთავარი დანიშნულებაა ყავის გემოებისა და დეფექტების აღმოჩენა, არასწორი მომზადების ფაქტორის გარეშე.']},
@@ -338,7 +338,7 @@ const SECTIONS = [
   ]},
 
 /* ---- EXTRACTION ---- */
-{ id:'extraction', title:'ექსტრაქცია', ico:'🧮', cat:'extraction', group:'ბარისტა', time:8,
+{ id:'extraction', title:'ექსტრაქცია', ico:'🧮', cat:'extraction', group:'ბარისტა',
   lead:'ყავის მომზადების ფიზიკა — ექსტრაქცია, სიძლიერე და იდეალური დიაპაზონი.',
   blocks:[
     {type:'cards', items:[
@@ -368,7 +368,7 @@ const SECTIONS = [
   ]},
 
 /* ---- GRINDING ---- */
-{ id:'grinding', title:'ყავის დაფქვა', ico:'⚙️', cat:'grinding', group:'ბარისტა', time:7,
+{ id:'grinding', title:'ყავის დაფქვა', ico:'⚙️', cat:'grinding', group:'ბარისტა',
   lead:'საფქვავს გადამწყვეტი როლი აქვს ფინჯანი ყავის მომზადებაში.',
   blocks:[
     {type:'cards', items:[
@@ -393,7 +393,7 @@ const SECTIONS = [
   ]},
 
 /* ---- ESPRESSO ---- */
-{ id:'espresso', title:'ესპრესო', ico:'☕', cat:'espresso', group:'ბარისტა', time:8,
+{ id:'espresso', title:'ესპრესო', ico:'☕', cat:'espresso', group:'ბარისტა',
   lead:'რა არის ესპრესო, წნევა, ერთმაგი vs ორმაგი და რატომ ვამზადებთ მხოლოდ ორმაგს.',
   blocks:[
     {type:'prose', items:['ესპრესო — ყავის სასმელი, სადაც წყალი მაღალი წნევით (9 ბარით) ჩაივლის დაფქვილ ყავას და ვიღებთ მაღალი კონცენტრაციის სასმელს. ინტენსიური, ძლიერი, მკვეთრად გამოხატული არომატებით.']},
@@ -411,7 +411,7 @@ const SECTIONS = [
   ]},
 
 /* ---- ESPRESSO MACHINE + WORKFLOW ---- */
-{ id:'machine', title:'ესპრესოს აპარატი და სამუშაო პროცესი', ico:'🛠️', cat:'machine', group:'ბარისტა', time:9,
+{ id:'machine', title:'ესპრესოს აპარატი და სამუშაო პროცესი', ico:'🛠️', cat:'machine', group:'ბარისტა',
   lead:'აპარატი, დისტრიბუცია, დატემპვა და ჯგუფთან მუშაობის ნაბიჯები.',
   blocks:[
     {type:'prose', items:['ესპრესოს აპარატი ყავას ამზადებს წნევის ქვეშ მყოფი ცხელი წყლით — სწრაფად. პროფესიული აპარატი გვაძლევს კონტროლს: წყლის ტემპერატურა, რაოდენობა, წნევა, ექსტრაქციის დრო. რაც მეტ ფაქტორს ვაკონტროლებთ, მით უკეთესია აპარატი.']},
@@ -445,15 +445,15 @@ const SECTIONS = [
   ]},
 
 /* ---- DRINKS (custom render) ---- */
-{ id:'drinks', title:'Coffee Lab სასმელები', ico:'🥤', cat:'drinks', group:'Coffee Lab', custom:'drinks', time:14,
+{ id:'drinks', title:'Coffee Lab სასმელები', ico:'🥤', cat:'drinks', group:'Coffee Lab', custom:'drinks',
   lead:'მენიუს ყველა სასმელი — აღწერა, ზომა, შეფარდება, ინტენსივობა და ვის ვთავაზობთ.' },
 
 /* ---- BREWING (custom render) ---- */
-{ id:'brewing', title:'ფილტრის მეთოდები', ico:'🫖', cat:'brewing', group:'Coffee Lab', custom:'brewing', time:11,
+{ id:'brewing', title:'ფილტრის მეთოდები', ico:'🫖', cat:'brewing', group:'Coffee Lab', custom:'brewing',
   lead:'French Press, AeroPress, V60, Pulsar — დრო, გემო და ვის ვთავაზობთ.' },
 
 /* ---- IMMERSION VS PERCOLATION ---- */
-{ id:'immersion', title:'Immersion vs Percolation', ico:'🔀', cat:'immersion', group:'Coffee Lab', time:6,
+{ id:'immersion', title:'Immersion vs Percolation', ico:'🔀', cat:'immersion', group:'Coffee Lab',
   lead:'ფილტრის მომზადების ორი ფუნდამენტური ლოგიკა — და ჰიბრიდები.',
   blocks:[
     {type:'cards', items:[
@@ -472,27 +472,27 @@ const SECTIONS = [
   ]},
 
 /* ---- EMPLOYEE MODE (custom render) ---- */
-{ id:'employee', title:'თანამშრომლის რეჟიმი', ico:'🧑‍🍳', cat:'employee', group:'Coffee Lab', custom:'employee', time:8,
+{ id:'employee', title:'თანამშრომლის რეჟიმი', ico:'🧑‍🍳', cat:'employee', group:'Coffee Lab', custom:'employee',
   lead:'როგორ შევთავაზოთ სასმელი სტუმარს — სცენარები, რეკომენდაცია, მიზეზი და ალტერნატივა.' },
 
 /* ---- STUDY TOOLS (custom) ---- */
-{ id:'numbers', title:'Must-Know Numbers', ico:'🔢', cat:'tool', group:'მეხსიერება', custom:'numbers', time:0,
+{ id:'numbers', title:'Must-Know Numbers', ico:'🔢', cat:'tool', group:'მეხსიერება', custom:'numbers',
   lead:'ყველა მნიშვნელოვანი ციფრი, ტემპერატურა, შეფარდება და პროცენტი ერთ ადგილას.' },
-{ id:'facts', title:'Most Important Facts', ico:'⭐', cat:'tool', group:'მეხსიერება', custom:'facts', time:0,
+{ id:'facts', title:'Most Important Facts', ico:'⭐', cat:'tool', group:'მეხსიერება', custom:'facts',
   lead:'საკვანძო ფაქტები, რომელთა დავიწყებაც არ შეიძლება.' },
-{ id:'mistakes', title:'Common Mistakes', ico:'⚠️', cat:'tool', group:'მეხსიერება', custom:'mistakes', time:0,
+{ id:'mistakes', title:'Common Mistakes', ico:'⚠️', cat:'tool', group:'მეხსიერება', custom:'mistakes',
   lead:'ხშირი შეცდომები ბარში და როგორ ავიცილოთ ისინი.' },
-{ id:'cheatsheet', title:'Exam Cheat Sheet', ico:'📋', cat:'tool', group:'მეხსიერება', custom:'cheatsheet', time:0,
+{ id:'cheatsheet', title:'Exam Cheat Sheet', ico:'📋', cat:'tool', group:'მეხსიერება', custom:'cheatsheet',
   lead:'გამოცდის წინ — ყველაფერი ერთ გვერდზე.' },
 
 /* ---- PRACTICE (custom) ---- */
-{ id:'flashcards', title:'ფლეშქარდები', ico:'🃏', cat:'tool', group:'ვარჯიში', custom:'flashcards', time:0,
+{ id:'flashcards', title:'ფლეშქარდები', ico:'🃏', cat:'tool', group:'ვარჯიში', custom:'flashcards',
   lead:'გადააბრუნე ბარათი და შეამოწმე მეხსიერება. გაფილტრე კატეგორიით.' },
-{ id:'quiz', title:'ქვიზი', ico:'❓', cat:'tool', group:'ვარჯიში', custom:'quiz', time:0,
+{ id:'quiz', title:'ქვიზი', ico:'❓', cat:'tool', group:'ვარჯიში', custom:'quiz',
   lead:'100+ კითხვა, მყისიერი უკუკავშირი, ქულის თვალყურისდევნება და შეცდომების მიმოხილვა.' },
-{ id:'exam', title:'საფინალო გამოცდა', ico:'🎓', cat:'tool', group:'ვარჯიში', custom:'exam', time:0,
+{ id:'exam', title:'საფინალო გამოცდა', ico:'🎓', cat:'tool', group:'ვარჯიში', custom:'exam',
   lead:'50 შემთხვევითი კითხვა მთელი მასალიდან. შედეგი + შეცდომების ახსნა.' },
-{ id:'assistant', title:'სასწავლო ასისტენტი', ico:'🤖', cat:'tool', group:'ვარჯიში', custom:'assistant', time:0,
+{ id:'assistant', title:'სასწავლო ასისტენტი', ico:'🤖', cat:'tool', group:'ვარჯიში', custom:'assistant',
   lead:'დასვი კითხვა — ასისტენტი გიპასუხებს მხოლოდ ამ ტრენინგის მასალის მიხედვით.' },
 ];
 
@@ -866,7 +866,6 @@ function load(){
 function save(){ try{ localStorage.setItem(STORE_KEY,JSON.stringify(state.progress)); }catch(e){} }
 
 const CONTENT = SECTIONS.filter(s=>s.id!=='dashboard');
-const TOTAL_TIME = SECTIONS.reduce((a,s)=>a+(s.time||0),0);
 
 /* ---------- BLOCK RENDERER ---------- */
 function renderBlocks(blocks){ return (blocks||[]).map(renderBlock).join(''); }
@@ -954,7 +953,7 @@ function go(id){
 }
 function sectionHeader(s){
   return `<div class="sec-head">
-    <span class="eyebrow"><span class="dot" style="background:${CAT_COLOR[s.cat]}"></span>${CAT_LABEL[s.cat]||''}${s.time?` · ~${s.time} წთ`:''}</span>
+    <span class="eyebrow"><span class="dot" style="background:${CAT_COLOR[s.cat]}"></span>${CAT_LABEL[s.cat]||''}</span>
     <h1 class="sec-title">${esc(s.title)}</h1>
     ${s.lead?`<p class="sec-lead">${esc(s.lead)}</p>`:''}
   </div>`;
@@ -1047,7 +1046,7 @@ CUSTOM.dashboard = function(){
     {id:'drinks',ico:'🥤',t:'სასმელები',d:'მენიუს ყველა ყავა + რეკომენდაცია'},
     {id:'brewing',ico:'🫖',t:'ფილტრის მეთოდები',d:'French Press, V60, AeroPress, Pulsar'},
     {id:'numbers',ico:'🔢',t:'Must-Know Numbers',d:'ყველა ციფრი ერთ ადგილას'},
-    {id:'quiz',ico:'❓',t:'ქვიზი',d:'138 კითხვა · მყისიერი უკუკავშირი'},
+    {id:'quiz',ico:'❓',t:'ქვიზი',d:`${QUESTIONS.length} კითხვა · მყისიერი უკუკავშირი`},
     {id:'flashcards',ico:'🃏',t:'ფლეშქარდები',d:'შეამოწმე მეხსიერება'},
   ];
   $('#view').innerHTML=`
@@ -1064,7 +1063,6 @@ CUSTOM.dashboard = function(){
 
     <div class="stat-grid">
       <div class="stat"><span class="stat-ico">📦</span><div class="stat-val mono">${CONTENT.length}</div><div class="stat-label">სასწავლო თემა</div></div>
-      <div class="stat"><span class="stat-ico">⏱️</span><div class="stat-val mono">~${TOTAL_TIME}</div><div class="stat-label">წუთი სასწავლი</div></div>
       <div class="stat"><span class="stat-ico">📈</span><div class="stat-val mono">${pct}%</div><div class="stat-label">პროგრესი (${done}/${CONTENT.length})</div><div class="bar"><div class="bar-fill" style="width:${pct}%"></div></div></div>
       <div class="stat"><span class="stat-ico">🎯</span><div class="stat-val mono">${quizBest}%</div><div class="stat-label">ქვიზის რეკორდი</div></div>
     </div>
