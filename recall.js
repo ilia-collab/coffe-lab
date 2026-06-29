@@ -2,7 +2,7 @@
    COFFEE LAB — RECALL TRAINER ("გაშიფრე")
    A quiz-like self-test that works differently: a prompt/challenge is
    shown (e.g. „გაშიფრე CQI", „რას შეიცავს კაპუჩინო"), the learner thinks,
-   reveals the answer, then self-grades (ვიცოდი / ვერ ვიცოდი).
+   reveals the answer, then self-grades (ვიცოდი / არ ვიცოდი).
 
    All prompts + answers derive ONLY from in-app content. Self-registering
    IIFE with a double-load guard, like the menu-*.js modules.
@@ -91,7 +91,7 @@
         </div>
         ${rc.revealed
           ? `<div class="rc-grade">
-               <button class="btn miss" id="rcMiss">✗ ვერ ვიცოდი</button>
+               <button class="btn miss" id="rcMiss">✗ არ ვიცოდი</button>
                <button class="btn good" id="rcKnew">✓ ვიცოდი</button>
              </div>`
           : `<div class="rc-controls">
