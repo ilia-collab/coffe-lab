@@ -224,11 +224,7 @@
     "name": "Fellow Opus Conical Burr Grinder",
     "desc": "Fellow Opus Conical Burr Grinder — მრავალფუნქციური, პრემიუმ ხარისხის საფქვავი, რომელიც უზრუნველყოფს ზუსტ დაფქვას როგორც ესპრესოსთვის, ისე pour-over-ის, ფრენჩ პრესისა და ცივი ყავისთვის.\n• 6 ძირითადი + 41 მიკროკონფიგურაცია — დაფქვის სრული კონტროლი ნებისმიერი მეთოდისთვის\n• კონუსური დისკოები (Conical Burrs) — არომატის მაქსიმალური გაშლა და თანაბარი დაფქვა\n• ტურბო ძრავი და დაბალი ხმაურის სისტემა — სწრაფი და მშვიდი დაფქვა\n• სტილური და კომპაქტური დიზაინი — იდეალურია სახლისთვის, პროფესიონალური ხარისხით",
     "images": [
-      "technika_images/fellow-opus-grinder_1.png",
-      "technika_images/fellow-opus-grinder_2.png",
-      "technika_images/fellow-opus-grinder_3.png",
-      "technika_images/fellow-opus-grinder_4.png",
-      "technika_images/fellow-opus-grinder_5.png"
+      "technika_images/fellow-opus-grinder_1.png"
     ],
     "youtube": []
   },
@@ -323,8 +319,7 @@
     "name": "Fellow Clara French Press",
     "desc": "Fellow Clara — ფრენჩ პრესი, რომელიც კლასიკურ გამოცდილებას ცვლის. მისი ვაკუუმ-იზოლირებული კედლები ინარჩუნებს ოპტიმალურ ტემპერატურას, რათა ყოველი მომდევნო ფინჯანი ისეთივე არომატული და ცხელი იყოს, როგორც პირველი. გაუმჯობესებული ფილტრი კი უზრუნველყოფს სუფთა და ნაზ გემოს, ნალექის გარეშე.\n• მარტივი გამოყენება — შეავსეთ ნიშნულამდე, ჩაწიეთ და მოურიეთ\n• მარტივი გასაწმენდი — არაწებოვანი შიდა საფარი\n• ელეგანტური და გამძლე დიზაინი",
     "images": [
-      "technika_images/fellow-clara-french-press_1.png",
-      "technika_images/fellow-clara-french-press_2.png"
+      "technika_images/fellow-clara-french-press_1.png"
     ],
     "youtube": []
   },
