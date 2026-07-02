@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "coffee-lab",
+      "runtimeExecutable": "powershell",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "C:\\Users\\iliam\\OneDrive\\Desktop\\coffe lab ყავა\\.claude\\serve.ps1", "-Port", "4599", "-Root", "C:\\Users\\iliam\\OneDrive\\Desktop\\coffe lab ყავა"],
+      "port": 4599
+    }
+  ]
+}

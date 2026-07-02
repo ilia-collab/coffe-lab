@@ -1323,8 +1323,24 @@ CUSTOM.exam = function(s){
 };
 function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
+/* Reshuffles each question's options so the correct answer lands on a random
+   position (A–D), never repeating the same position more than 3 times in a row.
+   Returns display copies — QUESTIONS data stays untouched. */
+function shuffleAnswers(list){
+  let lastPos=-1, streak=0;
+  return list.map(q=>{
+    const n=q.opts.length;
+    let pos=Math.floor(Math.random()*n);
+    if(pos===lastPos && streak>=3) pos=(pos+1+Math.floor(Math.random()*(n-1)))%n;
+    if(pos===lastPos) streak++; else { lastPos=pos; streak=1; }
+    const others=shuffle(q.opts.filter((_,i)=>i!==q.a));
+    others.splice(pos,0,q.opts[q.a]);
+    return Object.assign({},q,{opts:others,a:pos});
+  });
+}
+
 function startQuiz(list,mode){
-  quiz.list=list; quiz.i=0; quiz.score=0; quiz.wrong=[]; quiz.answered=false; quiz.mode=mode;
+  quiz.list=shuffleAnswers(list); quiz.i=0; quiz.score=0; quiz.wrong=[]; quiz.answered=false; quiz.mode=mode;
   renderQuestion();
 }
 function renderQuestion(){
